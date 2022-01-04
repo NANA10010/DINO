@@ -1,0 +1,88 @@
+body {
+	background-color: black;
+}
+.dino{
+position: relative;
+}
+
+.Header1 {
+  position: absolute;
+  top: 5px;
+  right: 20px;
+  font-family: papyrus;
+  font-size: 80px;
+  color: #239D60;
+  font-weight: 40px;
+  text-decoration: overline;
+}
+
+.fixed {
+	position: fixed;
+	bottom: 0;
+  	right: 0;
+}
+
+p{
+	color: white;
+	color: #CCFFBD;
+	font-family: Bradley Hand , cursive;
+  	font-size: 30px;
+}
+h1{
+	font-family: papyrus ;
+ 	font-size: 50px;
+  	font-weight: 100px;
+	color: #8EBF24;
+}
+h2{font-family: papyrus ;
+ 	font-size: 40px;
+  	font-weight: 100px;
+	color: #8EBF24;
+}
+h3{
+	color: #CCFFBD;
+	font-family: Bradley Hand , cursive;
+  	font-size: 30px;
+}
+
+.text{
+	float: left;
+	width: 70%;
+}
+.photos {
+	float: right;
+	width: 30%;
+}
+img{
+	position: relative;
+}
+
+.video{
+	float: left;
+	width: 50%;
+}
+
+.footer{
+	float: left;
+	width: 30%;
+	background-color:black;
+	color: white;
+}
+.footer a {
+  
+  color: white; 
+  display: block; 
+  padding: 12px; 
+  text-decoration: none; 
+  font-family: Bradley Hand , cursive;
+  font-size: 20px;
+  font-weight: 5px;
+}
+.footer a:hover {
+  background-color: #62760C; 
+}
+
+.footer a.active {
+  background-color: #62760C; 
+  color: white;
+}

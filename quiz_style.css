@@ -1,0 +1,205 @@
+body {
+	background-color: black;
+}
+
+.fixed {
+	position: fixed;
+	bottom: 0;
+  	right: 0;
+}
+
+.dino{
+position: relative;
+}
+
+.Header1 {
+  position: absolute;
+  top: 5px;
+  right: 20px;
+  font-family: papyrus;
+  font-size: 80px;
+  color: #239D60;
+  font-weight: 40px;
+  text-decoration: overline;
+}
+
+@keyframes animation1{
+	0%   {background-color:#ACDF87; left:0px; top:0px;}
+  50%  {background-color:#239D60; left:75%; top:0px}
+  100%   {background-color:#ACDF87; left:0px; top:0px;}
+}
+
+@keyframes animation2{
+	0%   { transform: scaleX(-1);left:0px; top:0px;}
+  50%  {transform: scaleX(-1);left:80%; top:0px}
+  51% {transform: scaleX(1)}
+  100%   { transform: scaleX(1);left:0px; top:0px;}
+}
+
+@keyframes animation3{
+  0%   { top:0px;}
+  50%  { top:70%; }
+  100% { top:0px; }
+}
+
+.animation3{
+  position: fixed;
+  left: 80%;
+  animation-name: animation3;
+  animation-duration: 10s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+}
+.footerphoto {
+  position: relative;
+  animation-name: animation2;
+  animation-duration: 10s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+}
+
+.quizHeader {
+  position: relative;
+  font-family: papyrus;
+  font-size:40px;
+  color:black;
+  font-weight: 40px;
+  font-size:25px;
+  width: 190px;
+  height: 40px;
+  
+  animation-name: animation1;
+  animation-duration: 10s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+}
+.quizfooter {
+  position: relative;
+  font-family: papyrus;
+  font-size:40px;
+  color:black;
+  font-weight: 40px;
+  font-size:25px;
+  width: 190px;
+  height: 40px;
+  
+  animation-name: animation1;
+  animation-duration: 10s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+}
+
+.quizHeader1 {
+  position: absolute;
+  top: 10px;
+  left: 20px;
+  font-family: papyrus;
+  font-size: 80px;
+  color: black;
+  font-weight: 40px;
+}
+
+.quizHeader2 {
+  position: relative;
+  font-family: papyrus;
+  font-size: 30px;
+  color: #ACDF87;
+  font-weight:40px;
+}
+p.question {
+  font-family: papyrus;
+  font-size:30px;
+  color: #A4DE02;
+  margin-bottom:0px;
+}
+
+h2.quizScore{
+   font-family: papyrus;
+  font-size:30px;
+  color: red;
+  margin-bottom:0px;
+  text-decoration:underline;
+}
+
+div.quizAnswers{
+  color: #A4DE02;
+  font-family: Bradley Hand , cursive;
+  font-size: 15px;
+}
+
+label {
+  vertical-align:center;
+  color: #CCFFBD;
+  font-family: Bradley Hand , cursive;
+  font-size: 30px;
+}
+
+input.answer[type="radio"] {
+  margin-bottom: 10px;
+}
+
+input.quizSubmit[type="submit"] {
+  color: black;
+  background-color: #4C9A2A  ;
+  margin: 0;
+  border: 0;
+  outline: 0;
+  text-transform:uppercase;
+  height:35px;
+  width:85px;
+  border: 1px solid #ACDF87;
+  border-radius:5px;
+  font-family: papyrus;
+  font-size: 12px;
+  
+ }
+
+input.quizSubmit[type="submit"]:hover {
+  color: black;
+  background: #76BA1B;
+  font-family: papyrus;
+  font-size: 15px;
+}
+
+table {
+  width: 80%;
+  float: left;
+  text-align: left;
+}
+
+td {
+ align-items: center;
+}
+
+.submitter {
+	  width:85px;
+}
+
+.hide {
+	color: white; 
+}
+
+.footer{
+	float: left;
+	width: 30%;
+	background-color:black;
+	color: white;
+}
+.footer a {
+  
+  color: white; 
+  display: block; 
+  padding: 12px; 
+  text-decoration: none; 
+  font-family: Bradley Hand , cursive;
+  font-size: 20px;
+  font-weight: 5px;
+}
+.footer a:hover {
+  background-color: #62760C; 
+}
+
+.footer a.active {
+  background-color: #62760C; 
+  color: white;
+}
